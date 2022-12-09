@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Management Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-field">
+        <label for="user-input" id="label">কাষ্টমারের নাম?</label>
+        <input
+          type="text"
+          name="user-input"
+          id="user-input"
+          placeholder="তথ্য লেখা হলে এন্টার চাপুন"
+        />
+      </div>
+      <div class="caption">
+        <h2>লেনদেনের হিসাব</h2>
+        <button id="clearBtn">তথ্য মুছে ফেলুন</button>
+      </div>
+      <table border="3" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>নাম</th>
+            <th>পন্য</th>
+            <th>পরিমান</th>
+            <th>মুল্য</th>
+            <th>প্রফিট</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

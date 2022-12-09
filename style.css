@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: kalpurush;
+  font-size: 13px;
+  background-color: #bbd6f0;
+}
+
+.container {
+  min-width: 40%;
+  max-width: fit-content;
+  background-color: white;
+  margin: 1rem auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+th,
+td {
+  border: 2px solid lightblue;
+  border-collapse: collapse;
+  margin: 0px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.input-field {
+  margin: 1rem 0px;
+}
+
+input#user-input {
+  width: 80%;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid lightblue;
+  margin: 0 auto;
+  display: inherit;
+}
+
+input#user-input:focus {
+  outline: 2px solid lightblue;
+}
+
+input#user-input:placeholder-shown {
+  font-family: kalpurush;
+  font-size: 15px;
+}
+
+.caption > h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  vertical-align: middle;
+}
+
+label#label {
+  font-weight: bold;
+  text-align: center;
+  display: inherit;
+  font-size: 17px;
+}
+
+.caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button#clearBtn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: brown;
+  font-weight: bold;
+  font-family: kalpurush;
+}
+
+@media only screen and (max-width: 820px) {
+  .container {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
